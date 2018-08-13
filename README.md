@@ -1,3 +1,5 @@
+## [Latest Release](http://renessans.bz/)
+
 # Destroy Windows 10 Spying
 
 ### Features
@@ -11,24 +13,9 @@
 - Remove Office 2016 telemetry
 - Open Source!
 
-### Determination of the system language
+### Copyright 2018 RENESSANS LLC
 
-We get the language from the command-line arguments to the function:
-```c#
-private string _GetLang(IEnumerable<string> args)
-```
-Next we set language in function:
-```c#
-private void SetLanguage(string currentlang = null)
-```
-And call function to change the language:
-```c#
-private void ChangeLanguage()
-```
-
-### Copyright 2015 Nummer
-
-[Twitter @nummerok](https://twitter.com/nummerok)
+[Twitter @renessans_bz](https://twitter.com/renessans_bz)
 
 ### License
 
@@ -43,3 +30,4 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
+
